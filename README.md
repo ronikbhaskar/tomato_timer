@@ -10,6 +10,16 @@ https://en.wikipedia.org/wiki/Pomodoro_Technique
 
 This Chrome Extension provides an adjustable timer for implementing this study technique. Once it is published, you will be able to download it here: No Link Yet
 
+## Manual Installation
+
+1. Download the source code
+2. Open Chrome and go to `chrome://extensions/`
+3. In the top right corner, enable "Developer mode"
+4. In the top left corner, click "Load unpacked"
+5. Select the folder `Tomato Timer` not `tomato_timer`
+6. Click the puzzle piece in the top right of the browser window
+7. Click the pin to the right of "Tomato Timer"
+
 ## Tangent Towards Timing Tomatoes
 
 A few weeks ago, I learned that "*tomato*" in Italian is "*pomodoro*." Before this, I had only ever heard the word "pomodoro" in the context of the Pomodoro Technique. While I don't fully buy the Pomodoro Technique, I new I wanted to create something that commented on this, though I later realized that most people that subscribe to the technique probably already knew this.
