@@ -1,6 +1,6 @@
 {
     "name": "Tomato Timer",
-    "description": "Pomodoro means tomato in Italian. This is a Pomodoro Technique timer.",
+    "description": "Pomodoro means tomato in Italian. This is a Pomodoro Technique timer. Source code here: https://github.com/ronikbhaskar/tomato_timer",
     "version": "0.1.0",
     "manifest_version": 3,
     "background": {
