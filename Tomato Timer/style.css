@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap');
+
+body {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 5px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    white-space: nowrap;
+    margin: 1px 0 2px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: inherit;
+}
+
+h2 {
+  color: black;
+  text-align: right;
+  font-family: inherit;
+  padding-right: 0.5rem;
+}
+
+h3 {
+    color: black;
+    text-align: right;
+    font-family: inherit;
+    padding-right: 0.5rem;
+}
+
+
+.settings-container {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.toggle-container {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+button {
+    background-color: white;
+    background-image: url("images/tomato.png");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    color: white;
+    font-size: large;
+    height: 2rem;
+    width: 2rem;
+    border: 2px black;
+    border-radius: 50%;
+}
+
+input {
+    width: 4rem;
+}
+  
+/* button.current {
+    box-shadow: 0 0 0 2px white,
+                0 0 0 4px black;
+} */
+

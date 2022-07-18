@@ -1,0 +1,29 @@
+{
+    "name": "Tomato Timer",
+    "description": "Pomodoro means tomato in Italian. This is a Pomodoro Technique timer.",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage", 
+        "declarativeContent"
+    ],
+    "optional_permissions":["notifications"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/tomato.png",
+            "32": "/images/tomato.png",
+            "48": "/images/tomato.png",
+            "128": "/images/tomato.png"
+        }
+    },
+    "icons": {
+        "16": "/images/tomato.png",
+        "32": "/images/tomato.png",
+        "48": "/images/tomato.png",
+        "128": "/images/tomato.png"
+    }
+}

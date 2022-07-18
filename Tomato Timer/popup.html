@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <!-- the only style sheet of the project -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- a translation of Pomodoro for the alliteration -->
+        <h1>Tomato Timer</h1>
+        <div class="settings-container">
+            <h3>Work (min):</h3>
+            <input id="workTime" type="number" min="1">
+            <h3>Break (min):</h3>
+            <input id="breakTime" type="number" min="1">
+        </div>
+        <div class="toggle-container"> 
+            <h2 id="startStopText">Start Session</h2>
+            <button id="toggleTomato">▶</button>
+        </div>
+        <!-- background script should not be linked to popup window -->
+        <script src="popup.js"></script>
+    </body>
+</html>
