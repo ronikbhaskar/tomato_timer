@@ -1,4 +1,3 @@
-// TODO: documentation
 
 /* load html elements */
 const toggleTomato = document.getElementById("toggleTomato");
@@ -11,6 +10,7 @@ const STOP_TEXT = "Stop Session";
 const START_ICON = "▶";
 const STOP_ICON = "✖";
 
+/* sorry about the global variable */
 var running = false;
 
 /* Initialize times with user preference */
@@ -72,6 +72,7 @@ toggleTomato.addEventListener("click", async () => {
     }
 });
 
+/* pseudo-API manager */
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.cmd === "UPDATE_TIME") {
         const minuteString = message.minutes.toString();
@@ -90,6 +91,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     }
 });
 
+/* upon reoping the UI, refresh the page */
 chrome.runtime.sendMessage({ cmd: "REFRESH" }, response => {
     if (!response.running) {
         return;
