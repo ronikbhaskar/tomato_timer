@@ -22,7 +22,7 @@ This Chrome Extension provides an adjustable timer for implementing this study t
 
 ## Tangent Towards Timing Tomatoes
 
-A few weeks ago, I learned that "*tomato*" in Italian is "*pomodoro*." Before this, I had only ever heard the word "pomodoro" in the context of the Pomodoro Technique. While I don't fully buy the Pomodoro Technique, I new I wanted to create something that commented on this, though I later realized that most people that subscribe to the technique probably already knew this.
+A few weeks ago, I learned that "*tomato*" in Italian is "*pomodoro*." Before this, I had only ever heard the word "pomodoro" in the context of the Pomodoro Technique. While I don't fully buy the Pomodoro Technique, I knew I wanted to create something that commented on this, though I later realized that most people that subscribe to the technique probably already knew this.
 
 But that still wasn't enough. So many Romance languages use a word similar to "tomato" to represent the red produce (owing to Nahuatl), but not Italian. It turns out that "pomodoro" comes from "pomo d'oro," which translates to "golden apple" or "golden fruit." This made sense for a bit, and it gave me an idea for renaming "golden apples" to "pomodori" in the video game that makes heavy use of golden apples (you know the one), but then I was confused again. 
 
